@@ -1,0 +1,22 @@
+{
+  "todos": [
+    {
+      "name": "Филл",
+      "fullName": "Петр",
+      "num": "0555 55 44 33",
+      "id": 1
+    },
+    {
+      "name": "Maks",
+      "fullName": "K",
+      "num": "0555 66 55 44",
+      "id": 2
+    },
+    {
+      "name": "Jhon",
+      "fullName": "Snow",
+      "num": "0777 77 66 55",
+      "id": 3
+    }
+  ]
+}

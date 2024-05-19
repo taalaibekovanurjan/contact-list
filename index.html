@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Contact Management</h1>
+    <div class="part1">
+      <div class="input_add">
+        <input type="text" id="search" placeholder="Search contact" />
+      </div>
+      <div class="search">
+        <button class="search_contact">Search</button>
+      </div>
+      <div class="show">
+        <button class="show_contact">Show</button>
+      </div>
+    </div>
+    <div class="part2">
+      <div class="inputs">
+        <input type="text" id="name" placeholder="Please add name" />
+        <input type="text" id="full_name" placeholder="Please add full name" />
+        <input type="text" id="number" placeholder="Please add number" />
+        <input type="file" id="img" />
+        <img id="preview" src="#" alt="Image preview" style="display: none" />
+      </div>
+      <div class="save">
+        <button class="save_contact">Save</button>
+      </div>
+    </div>
+    <div class="part3">
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Full name</th>
+              <th>Number</th>
+              <th>Function</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td>
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

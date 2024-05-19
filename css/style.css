@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(127, 135, 192, 0.901);
+  background-image: url(https://ctt.by/wp-content/uploads/2023/10/%D0%9A%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82%D1%8B-EDI-%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0-%D0%A1%D0%A2%D0%A2-1536x1159.png);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.input_add {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#search {
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 2px;
+  width: 200px;
+}
+
+.part1 {
+  background-color: rgba(207, 210, 227, 0.696);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 7px;
+  margin: 3% auto;
+  width: 50%;
+  height: 50px;
+  padding: 20px;
+}
+
+.inputs {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* для вертикального расположения */
+  justify-content: space-around;
+}
+
+.search,
+.show {
+  width: 50%;
+}
+
+.search,
+.show,
+.edit,
+.delete,
+.save {
+  padding: 10px;
+  margin: 5px;
+}
+
+.edit,
+.delete,
+.save {
+  width: 70px;
+}
+
+.show {
+  margin-right: 2%;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background: #0b63f6;
+  box-shadow: 0 2px 0 #003cc5;
+  font-size: 16px;
+  font-weight: 100;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #003cc5;
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+.part2 {
+  border-radius: 7px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  font-size: 30px;
+  /* display: none; */
+  background-color: #fff;
+  width: 50%;
+}
+
+#name,
+#full_name,
+#number,
+#img {
+  block-size: 23px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.edit_delete {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#preview {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(76, 82, 126);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: wheat;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.input_add {
+  display: flex;
+  align-items: center;
+  width: 35%;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#search {
+  padding: 4px;
+  border-radius: 5px;
+  margin-top: 2px;
+  width: 200px;
+}
+
+.container {
+  background-color: rgb(209, 215, 246);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 7px;
+  margin: 3% auto;
+  width: 50%;
+  height: 50px;
+  padding: 20px;
+}
+
+.inputs {
+  width: 50%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* для вертикального расположения */
+  justify-content: space-around;
+}
+
+.search,
+.show {
+  width: 50%;
+}
+
+.search,
+.show,
+.edit,
+.delete,
+.save {
+  padding: 10px;
+  margin: 5px;
+}
+
+.edit,
+.delete,
+.save {
+  width: 70px;
+}
+
+.show {
+  margin-right: 2%;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  background: #0b63f6;
+  box-shadow: 0 2px 0 #003cc5;
+  font-size: 16px;
+  font-weight: 100;
+  width: 150px;
+  height: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #003cc5;
+  box-shadow: none;
+  position: relative;
+  top: 2px;
+}
+
+.forms {
+  border-radius: 7px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  font-size: 30px;
+  background-color: #d2dfe3;
+  width: 50%;
+}
+
+#name,
+#full_name,
+#number,
+#img {
+  block-size: 23px;
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.edit_delete {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#preview {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+/* _______________ */
+.table-container {
+  width: 823px;
+  margin: auto;
+  background-color: #455582df;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(87, 90, 99, 0.5);
+}
+
+table {
+  /* width: 823px; */
+  border-collapse: collapse;
+  position: fixed;
+  top: 70%;
+  left: 22.5%;
+  display: none;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  color: #fff;
+}
+
+th {
+  background-color: #444;
+}
+
+td {
+  background-color: #555;
+}
+
+tr:nth-child(even) td {
+  background-color: #666;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+button.edit {
+  background-color: #f0ad4e;
+}
+
+button.edit:hover {
+  background-color: #ec971f;
+}
+
+button.delete {
+  background-color: #d9534f;
+}
+
+button.delete:hover {
+  background-color: #c9302c;
+}
